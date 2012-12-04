@@ -1,0 +1,57 @@
+<script src="ajax.js"></script>
+
+<script type="text/javascript"><!--
+refreshdiv();
+// --></script>
+<div id="timediv"></div>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>
+      Google Visualization API Sample
+    </title>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
+        var data = google.visualization.arrayToDataTable([
+          ['x', 'pH',],
+          ['1',   1, ],
+          ['2',   2, ],
+          ['3',   4, ],
+          ['4',   8, ],
+          ['5',   7, ],
+          ['6',   7, ],
+          ['7',   8, ],
+          ['8',   4, ],
+          ['9',   2, ],
+          ['10',   3.5, ],
+          ['11',   3, ],
+          ['12',   3.5, ],
+          ['13',   1, ],
+          ['14',   1, ]
+        ]);
+      
+        // Create and draw the visualization.
+        new google.visualization.LineChart(document.getElementById('visualization')).
+            draw(data, {curveType: "function",
+                        width: 500, height: 400,
+                        vAxis: {maxValue: 10}}
+                );
+      }
+      
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;">
+    <div style="float: left; width: 50%;">
+ <center>
+    <div id="visualization" style="width: 500px; height: 400px;"></div>
+   This is not actual data just a place holder untill I can get the graph to use an array.
+ </div>
+  </body>
+</html>

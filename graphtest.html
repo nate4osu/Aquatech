@@ -1,0 +1,51 @@
+<?php
+$username="dbo443574793";
+$password="password12";
+$database="db443574793";
+
+mysql_connect("db443574793.db.1and1.com",$username,$password);
+@mysql_select_db($database) or die( "Unable to select database");
+$query="SELECT * FROM pool_variable";
+$result=mysql_query($query);
+
+$num=mysql_numrows($result);
+
+
+// query data
+$result = mysql_query(...);
+
+// format data structure
+$data = array();
+$i = 0;
+while($row = mysql_fetch_array($ph)) {
+    $i += 1;
+    array_push($data, array($i) + $row);
+}
+?>
+ <script type="text/javascript">
+var raw_data = <?php echo json_encode($data) ?>;
+</script>
+
+
+    <script type='text/javascript'>
+   google.load('visualization', '1', {'packages': ['geomap']});
+   google.setOnLoadCallback(drawMap);
+
+   function drawMap() {
+      var data = new google.visualization.DataTable(<?php echo $raw_data ?>);
+      var options = {};
+      options['dataMode'] = 'regions';
+
+      var container = document.getElementById('map_canvas');
+      var geomap = new google.visualization.GeoMap(container);
+      geomap.draw(data, options);
+   };
+
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;">
+ <center>
+    <div id="visualization" style="width: 500px; height: 400px;"></div>
+   This is not actual data just a place holder untill I can get the graph to use an array.</center>
+  </body>
+</html>

@@ -1,0 +1,426 @@
+a  {
+   text-decoration: none;
+   color: #3636360;
+}
+
+a ins  {
+   text-decoration: none;
+}
+
+#citysearchbutton a:hover,
+#tripadvisorbutton a:hover,
+#googlebutton a:hover,
+#yahoobutton a:hover  {
+   background-position: -274px 0%;
+   font-style: italic;
+}
+
+#googledes p,
+#yahoodes p,
+#citydes p,
+#textbad p,
+#textfantastic p,
+#tripdes p  {
+   font: 12px/14px Arial;
+   margin: 0px;
+   text-align: left;
+}
+
+#citysearchbutton,
+#yahoobutton,
+#googlebutton,
+#tripadvisorbutton  {
+   font: 12px/12px Arial;
+   visibility: visible;
+   position: absolute;
+   left: 602px;
+   z-index: 7;
+   width: 274px;
+   height: 40px;
+}
+
+#googlebutton a,
+#yahoobutton a,
+#citysearchbutton a  {
+   font-style: Normal;
+   background-repeat: no-repeat;
+   display: block;
+   width: 274px;
+   height: 40px;
+   background-position: 0% 0px;
+   text-decoration: none;
+}
+
+#badbutton a,
+#goodbutton a  {
+   font-style: Normal;
+   background-repeat: no-repeat;
+   display: block;
+   height: 229px;
+   background-position: 0% 0px;
+   text-decoration: none;
+   color: #4E4E4E;
+}
+
+#tripadvisorbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 53px;
+   top: 12px;
+   width: 202px;
+   height: 14px;
+}
+
+#citysearchbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 57px;
+   top: 12px;
+   width: 183px;
+   height: 14px;
+}
+
+#goodbutton,
+#badbutton  {
+   font: 12px/12px Arial;
+   visibility: visible;
+   position: absolute;
+   top: 86px;
+   z-index: 6;
+   height: 229px;
+}
+
+
+
+#tripadvisorbutton a  {
+   background: url(reviewcmedia/tripadvisorbutton.jpg) no-repeat 0% 0px;
+   font-style: Normal;
+   display: block;
+   width: 274px;
+   height: 39px;
+   text-decoration: none;
+   color: #E6E6E6;
+}
+
+#tellbutton a:hover  {
+   background-position: -241px 0%;
+   font-style: italic;
+}
+
+#googlebutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 45px;
+   top: 12px;
+   width: 222px;
+   height: 14px;
+}
+
+#citysearchbutton a  {
+   color: #F3F3F3;
+   background-image: url(reviewcmedia/citysearchbutton.jpg);
+}
+
+#goodbutton a:hover  {
+   background-position: -217px 0%;
+   font-style: italic;
+}
+
+#tripadvisorbutton  {
+   height: 39px;
+   top: 618px;
+}
+
+#badbutton a:hover  {
+   background-position: -218px 0%;
+   font-style: italic;
+}
+
+#yahoobutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 49px;
+   top: 12px;
+   width: 208px;
+   height: 12px;
+}
+
+#citysearchbutton  {
+   top: 551px;
+}
+
+#tellbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 79px;
+   top: 10px;
+   width: 87px;
+   height: 13px;
+}
+
+#goodbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 75px;
+   top: 28px;
+   width: 132px;
+   height: 26px;
+}
+
+#textfantastic p  {
+   color: #363636;
+}
+
+#badbutton a ins  {
+   text-decoration: none;
+   position: relative;
+   left: 79px;
+   top: 28px;
+   width: 128px;
+   height: 26px;
+}
+
+#googlebutton a  {
+   color: #F8F8F8;
+   background-image: url(reviewcmedia/googlebutton.jpg);
+}
+
+#yahoobutton a  {
+   color: #FFFFFF;
+   background-image: url(reviewcmedia/yahoobutton.jpg);
+}
+
+#textfantastic  {
+   visibility: visible;
+   position: absolute;
+   left: 611px;
+   top: 341px;
+   z-index: 7;
+   width: 263px;
+}
+
+#textheader p  {
+   font: bold 22px/27px Arial;
+   margin: 0px;
+   color: #FFFFFF;
+   text-align: left;
+   text-shadow: #535353 2px -2px 2px;
+}
+
+#tellbutton a  {
+   background: url(reviewcmedia/tellbutton.jpg) no-repeat 0% 0px;
+   font-style: Normal;
+   display: block;
+   width: 241px;
+   height: 41px;
+   text-decoration: none;
+   color: #F5F5F5;
+}
+
+#textplease p  {
+   font: italic 14px/17px Arial;
+   margin: 0px;
+   color: #FFFFFF;
+   text-align: left;
+}
+
+#googlebutton  {
+   top: 415px;
+}
+
+#goodbutton a  {
+   width: 217px;
+   background-image: url(reviewcmedia/goodbutton.jpg);
+}
+
+#layer12copy  {
+   background-image: url(reviewcmedia/layer12copy.jpg);
+   z-index: 2;
+}
+
+#yahoobutton  {
+   top: 482px;
+}
+
+#googledes p  {
+   color: #363636;
+}
+
+#badbutton a  {
+   width: 218px;
+   background-image: url(reviewcmedia/badbutton.jpg);
+}
+
+#textplease  {
+   visibility: visible;
+   position: absolute;
+   left: 445px;
+   top: 52px;
+   z-index: 8;
+   width: 347px;
+}
+
+#yahoodes p  {
+   color: #363636;
+}
+
+#goodbutton  {
+   width: 217px;
+   left: 660px;
+}
+
+#tellbutton  {
+   font: 14px/14px Arial;
+   visibility: visible;
+   position: absolute;
+   left: 315px;
+   top: 411px;
+   z-index: 7;
+   width: 241px;
+   height: 41px;
+}
+
+#textheader  {
+   visibility: visible;
+   position: absolute;
+   left: 341px;
+   top: 22px;
+   z-index: 8;
+   width: 600px;
+}
+
+#badbutton  {
+   width: 218px;
+   left: 361px;
+}
+
+#citydes p  {
+   color: #363636;
+}
+
+#googledes  {
+   visibility: visible;
+   position: absolute;
+   left: 676px;
+   top: 380px;
+   z-index: 8;
+   width: 138px;
+}
+
+#tripdes p  {
+   color: #363636;
+}
+
+#textbad p  {
+   color: #363636;
+}
+
+#headerbg  {
+   background: url(reviewcmedia/headerbg.png) no-repeat;
+   visibility: visible;
+   position: absolute;
+   left: 201px;
+   top: 17px;
+   z-index: 7;
+   width: 796px;
+   height: 79px;
+}
+
+#yahoodes  {
+   visibility: visible;
+   position: absolute;
+   left: 664px;
+   top: 448px;
+   z-index: 8;
+   width: 168px;
+}
+
+#layer12  {
+   background-image: url(reviewcmedia/layer12.jpg);
+   z-index: 1;
+}
+
+#citydes  {
+   visibility: visible;
+   position: absolute;
+   left: 644px;
+   top: 536px;
+   z-index: 7;
+   width: 217px;
+}
+
+#reviewc  {
+   margin: 0px auto 0px auto;
+   width: 1206px;
+   position: relative;
+}
+
+#textbad  {
+   visibility: visible;
+   position: absolute;
+   left: 311px;
+   top: 343px;
+   z-index: 8;
+   width: 261px;
+}
+
+#tripdes  {
+   visibility: visible;
+   position: absolute;
+   left: 643px;
+   top: 601px;
+   z-index: 7;
+   width: 218px;
+}
+
+#greatbg  {
+   background: url(reviewcmedia/greatbg.jpg) no-repeat;
+   visibility: visible;
+   position: absolute;
+   left: 597px;
+   top: 321px;
+   z-index: 6;
+   width: 285px;
+   height: 344px;
+}
+
+#shadow  {
+   background: url(reviewcmedia/shadow.png) no-repeat;
+   visibility: visible;
+   position: absolute;
+   left: 93px;
+   top: 658px;
+   z-index: 4;
+   width: 1020px;
+   height: 40px;
+}
+
+
+#badbg  {
+   background: url(reviewcmedia/badbg.jpg) no-repeat;
+   visibility: visible;
+   position: absolute;
+   left: 297px;
+   top: 321px;
+   z-index: 6;
+   width: 285px;
+   height: 156px;
+}
+
+#bg  {
+   background: url(reviewcmedia/bg.png) no-repeat;
+   visibility: visible;
+   position: absolute;
+   left: 204px;
+   top: 3px;
+   z-index: 5;
+   width: 794px;
+   height: 684px;
+}
+
+html, body  {
+   padding: 0px;
+   margin: 0px;
+   background-color: #233865;
+}
+
